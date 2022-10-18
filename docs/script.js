@@ -84,7 +84,7 @@ $(document).ready(function (a) {
 				$result = 1 * $lib1 + .5 * $lib2 + .4 * $lib3 + .3 * $lib4 + .2 * $lib5 + .1 * $lib6 + .2 * $rev1 + .1 * $rev2 + .05 * $rev3, $result > 8 && ($result = 8);
 				break;
 			case "620":
-				$result = 1.5 * $proi1 + 1 * $proi2 + .6 * $proi3 + .4 * $proi0 + 1 * $pron1 + .75 * $pron2 + .5 * $pron3 + .3 * $pron0 + .5 * $proa1 + .25 * $proa2 + .1 * $proa3 + .08 * $proa0, $result > 2.5 && ($result = 2.5);
+				$result = 1.5 * $proi1 + 1 * $proi2 + .6 * $proi3 + .6 * $proi0 + 1 * $pron1 + .75 * $pron2 + .5 * $pron3 + .5 * $pron0 + .5 * $proa1 + .25 * $proa2 + .1 * $proa3 + .1 * $proa0, $result > 2.5 && ($result = 2.5);
 				break;
 			case "630":
 				$result = 1.5 * $prei1 + 1 * $prei2 + .6 * $prei3 + 1 * $pren1 + .75 * $pren2 + .5 * $pren3 + .5 * $prea1 + .25 * $prea2 + .1 * $prea3 + 1 * $comp1 + .5 * $comp2 + .4 * $comp3 + .3 * $comp4 + .2 * $comp5 + .1 * $comp6 + 1 * $conc1 + 1 * $conc2 + .5 * $conc3 + .25 * $conc4 + .75 * $expo1 + .375 * $expo2, $result > 2.5 && ($result = 2.5);
